@@ -318,7 +318,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="ocr")
     parser.add_argument(
         "--path",
-        type=str
+        type=str,
+        default='./examples/report-register-complex.pdf'
     )
     parser.add_argument(
         "--pre_save_path",

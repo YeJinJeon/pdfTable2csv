@@ -1,5 +1,5 @@
 # pdfTable2csv
-transform table contents in pdf to csv
+transform contents in pdf to csv keeping table format
 
 ## Installation
 sudo apt-get install poppler-utils
